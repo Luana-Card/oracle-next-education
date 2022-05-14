@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 25px;
+}
+
+.displayText{
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
